@@ -1,0 +1,25 @@
+@media screen and (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 600px;
+    }
+
+    .product {      
+        background: url(../images/image-product-mobile.jpg);  
+        width: 375px;
+        height: 300px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .text {
+        width: 360px;
+    }
+
+    .text-top {
+        
+    }
+
+}
